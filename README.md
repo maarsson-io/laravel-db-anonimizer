@@ -44,3 +44,7 @@ composer test
 
 Tests use PHPUnit and Orchestra Testbench to run in an isolated Laravel application.
 No consumer project or database is required.
+
+GitHub Actions runs validation and tests on PHP 8.3, 8.4 and 8.5 for pull requests
+and pushes targeting `develop` or `master`. PHP 8.3 resolves compatible dependency
+versions; PHP 8.4 and 8.5 use the committed lockfile.

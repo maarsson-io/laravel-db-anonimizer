@@ -10,5 +10,14 @@
         "psr-4": {
             "Maarsson\\LaravelDbAnonimizer\\": "src/"
         }
+    },
+    "authors": [
+        {
+            "name": "VMaarsson",
+            "email": "viktor@maarsson.io"
+        }
+    ],
+    "config": {
+        "sort-packages": true
     }
 }

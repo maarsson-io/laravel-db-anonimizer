@@ -2,6 +2,7 @@
     "name": "maarsson/laravel-db-anonimizer",
     "description": "Configurable database anonymization for Laravel applications.",
     "type": "library",
+    "license": "MIT",
     "require": {
         "php": "^8.4"
     },

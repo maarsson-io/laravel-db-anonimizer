@@ -1,0 +1,55 @@
+{
+    "name": "maarsson/laravel-db-anonimizer",
+    "description": "Configurable database anonymization for Laravel applications.",
+    "keywords": [
+        "laravel",
+        "database",
+        "anonymization",
+        "data-masking",
+        "privacy",
+        "gdpr",
+        "faker"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.3 <8.7",
+        "fakerphp/faker": "^1.24",
+        "illuminate/console": "^13.0",
+        "illuminate/database": "^13.0",
+        "illuminate/support": "^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maarsson\\LaravelDbAnonimizer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Maarsson\\LaravelDbAnonimizer\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VMaarsson",
+            "email": "viktor@maarsson.io"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maarsson\\LaravelDbAnonimizer\\LaravelDbAnonimizerServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "@php vendor/bin/phpunit"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^11.0",
+        "phpunit/phpunit": "^12.5"
+    }
+}

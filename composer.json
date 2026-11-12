@@ -24,6 +24,11 @@
             "Maarsson\\LaravelDbAnonimizer\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Maarsson\\LaravelDbAnonimizer\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "VMaarsson",
@@ -39,5 +44,12 @@
                 "Maarsson\\LaravelDbAnonimizer\\LaravelDbAnonimizerServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "test": "@php vendor/bin/phpunit"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^11.0",
+        "phpunit/phpunit": "^12.5"
     }
 }

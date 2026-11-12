@@ -34,3 +34,13 @@ Add rules for application-specific sensitive data; the default rules alone do no
 cover an entire application database.
 
 The anonymization command has not yet been moved into the package.
+
+## Testing
+
+```bash
+composer install
+composer test
+```
+
+Tests use PHPUnit and Orchestra Testbench to run in an isolated Laravel application.
+No consumer project or database is required.

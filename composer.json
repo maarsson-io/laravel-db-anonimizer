@@ -1,6 +1,15 @@
 {
     "name": "maarsson/laravel-db-anonimizer",
     "description": "Configurable database anonymization for Laravel applications.",
+    "keywords": [
+        "laravel",
+        "database",
+        "anonymization",
+        "data-masking",
+        "privacy",
+        "gdpr",
+        "faker"
+    ],
     "type": "library",
     "license": "MIT",
     "require": {

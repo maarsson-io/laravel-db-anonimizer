@@ -1,0 +1,13 @@
+{
+    "name": "maarsson/laravel-db-anonimizer",
+    "description": "Configurable database anonymization for Laravel applications.",
+    "type": "library",
+    "require": {
+        "php": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maarsson\\LaravelDbAnonimizer\\": "src/"
+        }
+    }
+}
